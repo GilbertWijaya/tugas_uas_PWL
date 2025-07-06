@@ -16,7 +16,7 @@ class CategorySeeder extends Seeder
         
         // membuat seeder untuk membuat dump data pada database
         DB::table("categories")->insert([
-            "nama" => "makanan",
+            "nama" => "obat",
             "created_at" => new \DateTime,
             "updated_at" => new \DateTime,
         ]);

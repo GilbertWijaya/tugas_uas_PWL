@@ -16,7 +16,7 @@ class Product extends Model
 
     // tabel product akan berelasi pada tabel category
     public function category():BelongsTo{
-        return $this->belongsTo(Category::class,'id');
+        return $this->belongsTo(Category::class,'id_categories');
     }
 
 }

@@ -15,9 +15,9 @@ class ProductSeeder extends Seeder
     {
         // membuat seeder untuk membuat dump data pada database   
         DB::table("products")->insert([
-            'nama' => "indomie",
-            "harga" => 5000,
-            "stock" => 20,
+            'nama' => "telur",
+            "harga" => 25500,
+            "stock" => 30,
             "id_categories" => 1,
             "created_at" => new \DateTime,
             "updated_at" => new \DateTime,
