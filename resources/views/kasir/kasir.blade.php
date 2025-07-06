@@ -46,6 +46,7 @@
                         <a href="/kasir/insert/transaction" class="bg-white px-2 rounded-sm cursor-pointer">Insert</a>
                         <button onclick="setUpdate()" class="bg-white px-2 rounded-sm cursor-pointer">Update</button?>
                         <button type="button" onclick="setDelete()" class="bg-white px-2 rounded-sm cursor-pointer">Delete</button>
+                        <a href="{{ route('logout') }}" class="text-red-500 bg-white px-2 rounded-sm cursor-pointer">Logout</a>
                     </div>
                 </div>
 
